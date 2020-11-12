@@ -124,7 +124,7 @@ int main(int, char**)
     //shader.use();
     //
 
-    Model ourModel("../res/obj/test.fbx");
+    Model ourModel("../res/obj/nanosuit/nanosuit.obj");
 
 
     JPolygen triagle(vertices,sizeof(vertices),36);
