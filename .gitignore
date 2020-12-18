@@ -3,3 +3,5 @@ bin/
 out/
 res/
 textures/
+.idea/
+cmake-build-debug/
