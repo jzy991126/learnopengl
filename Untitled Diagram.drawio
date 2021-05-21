@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T09:19:54.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="bCcHcUjUdDfFazbheiTS" version="14.6.13" type="github"><diagram id="wxyiKXQJSB0QF5colaaW" name="Page-1">1Zpbb9owFIB/jR9bxXYu9mMCYXtYVbVUarWXKQMvRM0FhTBgv352rg02l64NeBJCyYkd2985Puf4AMCjZPslD5aLu2zOYoCM+RbgMUCIYIN/C8GuEkDHMCtJmEfzWtYJptEfVgvrjuE6mrNVr2GRZXERLfvCWZambFb0ZEGeZ5t+s19Z3B91GYRMEkxnQSxLn6N5sajXhZxO/pVF4aIZGdq0epIETeN6JatFMM82b0TYB3iUZ1lRXSXbEYsFvIZL1W9y4Gk7sZylxTkdVrvZy4/XbfH9bvr9IXu43y1en28gql7zO4jX9YqB7wBCgUuBbwJvDCiu51/sGiirTZTEQcrvvLo7ywu2PTgx2C6X2wnLElbkO96k6WDWhGobuXHq+00HvKW4eAu7aRjUSg7bd3cc+EWN4h1YqIKKDSiHYQCfAM8ELvkwlSMKOcgKmbdWD5Yps4IOVLCCR1jVwz3yDRSkIV9POx5GtDccIvJ4tkI1CPdHC+KC5WlQMC9bp/OVpKB2pf+us2aBPaWVuuIf3wLUA54vKS0X82HivQbX22YRFWy6DGbi6YZ7NC5bFAmfxxh+SK30+A6APcjYkhlTmbFpDWT90JRIetPxRE92VDN2WGGFFiCW8Knch3iu8CHDOlSzUeARhwqNizpUaKnjjA/cieDjIkBwB+pKllYp7yBXvB+nnFuFtSm44rbh54O11fY2AXxjdIbXhPT/AyzUAayjtFgXAndUZkY8nNgX4Hkid7L66Cxb3uoWUZEbbKcTBbfS9rzKIF1V7nR1bujq3A7knBiQcZOJj4QFeljYnrjwAL1EUH4fSVORIV6WZLOG/Z07anYuqWMx5eGYCpsUQXnwU84+J+NMToPFZCSf/aZP364VIk7gQ/v0zooPaDB2ctj1k585Y7riM0/ycy7KTz5i+FHIUk3xQVsz85OTk+U6jLachJ4AMdbL/prpvAF4v2Sp//KoKUCT6gUQyWmeu1pFyVJXflAvfljm9+R5msI7bXsX9X5YVWOxgWuI1E6kc5OymHAyVR42wcPnHikGS/CwHGR7JQGe9nJUoigFAUFlaswPZ+a1jBAfLxJAa6/0jWW+pC2PX+SkgVVVLX6u4CZolFWtMXDtwwcMTbgaGoJVV7X4AZiTFIRpWTckwOXnOlxKfFVdVQ/CyDBO8aUKvzAcXVVpiwLqirKhYNlirgzZAdQU/pNLCNEXM9YNs6qi4whnK4ISR8tt1yodsi/cr55QzdNQP6m4w2+7H8OrHwW7vxRg/y8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-21T09:24:40.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="tY2HRzW0RcRhh0jAWFox" version="14.6.13" type="github">
+  <diagram id="wxyiKXQJSB0QF5colaaW" name="Page-1">
+    <mxGraphModel dx="830" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-12" value="物体" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="140" y="-70" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-9" value="材质" style="swimlane;" parent="sycX_kxtZMSZQoQOyhkW-12" vertex="1">
+          <mxGeometry x="24.5" y="40" width="171" height="110" as="geometry">
+            <mxRectangle x="329" y="280" width="60" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-10" value="贴图" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-9" vertex="1">
+          <mxGeometry x="11" y="35" width="69" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-14" value="BSDF" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-9" vertex="1">
+          <mxGeometry x="91" y="35" width="69" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-13" value="光源" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="414" y="-70" width="100" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-15" value="环境光" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-13" vertex="1">
+          <mxGeometry x="30" y="-77.5" width="60" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-16" value="发光物" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-13" vertex="1">
+          <mxGeometry x="30" y="-17.5" width="60" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-17" value="硬件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="560" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-18" value="驱动" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="520" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-19" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="480" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-21" value="第三方库" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="150" y="400" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-22" value="STL" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-21" vertex="1">
+          <mxGeometry x="20" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-26" value="Embree" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-21" vertex="1">
+          <mxGeometry x="240" y="40" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-24" value="Eigen" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-21" vertex="1">
+          <mxGeometry x="160" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-27" value="pugixml" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-21" vertex="1">
+          <mxGeometry x="330" y="40" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-30" value="OpenEXR" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-21" vertex="1">
+          <mxGeometry x="490" y="40" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-28" value="Assimp" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-21" vertex="1">
+          <mxGeometry x="410" y="40" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-38" value="TBB" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-21" vertex="1">
+          <mxGeometry x="90" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-33" value="核心系统" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="150" y="320" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-34" value="光线求交" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-33" vertex="1">
+          <mxGeometry x="10" y="30" width="84.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-35" value="数学库" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-33" vertex="1">
+          <mxGeometry x="105.5" y="30" width="84.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-36" value="场景解析" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-33" vertex="1">
+          <mxGeometry x="200" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-37" value="随机数生成" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-33" vertex="1">
+          <mxGeometry x="300" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-39" value="类工厂" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-33" vertex="1">
+          <mxGeometry x="400" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-2" value="场景加速结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sycX_kxtZMSZQoQOyhkW-33">
+          <mxGeometry x="490" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-3" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="170" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
