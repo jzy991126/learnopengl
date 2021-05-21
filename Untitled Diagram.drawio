@@ -1,32 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T09:24:40.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="tY2HRzW0RcRhh0jAWFox" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T11:52:34.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="D7LwOr6Nvx7glwOlTk34" version="14.6.13" type="github">
   <diagram id="wxyiKXQJSB0QF5colaaW" name="Page-1">
-    <mxGraphModel dx="830" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sycX_kxtZMSZQoQOyhkW-12" value="物体" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="140" y="-70" width="220" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="sycX_kxtZMSZQoQOyhkW-9" value="材质" style="swimlane;" parent="sycX_kxtZMSZQoQOyhkW-12" vertex="1">
-          <mxGeometry x="24.5" y="40" width="171" height="110" as="geometry">
-            <mxRectangle x="329" y="280" width="60" height="23" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sycX_kxtZMSZQoQOyhkW-10" value="贴图" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-9" vertex="1">
-          <mxGeometry x="11" y="35" width="69" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="sycX_kxtZMSZQoQOyhkW-14" value="BSDF" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-9" vertex="1">
-          <mxGeometry x="91" y="35" width="69" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="sycX_kxtZMSZQoQOyhkW-13" value="光源" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="414" y="-70" width="100" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="sycX_kxtZMSZQoQOyhkW-15" value="环境光" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-13" vertex="1">
-          <mxGeometry x="30" y="-77.5" width="60" height="37.5" as="geometry" />
-        </mxCell>
-        <mxCell id="sycX_kxtZMSZQoQOyhkW-16" value="发光物" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-13" vertex="1">
-          <mxGeometry x="30" y="-17.5" width="60" height="37.5" as="geometry" />
-        </mxCell>
         <mxCell id="sycX_kxtZMSZQoQOyhkW-17" value="硬件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="560" width="580" height="30" as="geometry" />
         </mxCell>
@@ -61,7 +38,7 @@
           <mxGeometry x="90" y="40" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sycX_kxtZMSZQoQOyhkW-33" value="核心系统" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="150" y="320" width="580" height="70" as="geometry" />
+          <mxGeometry x="150" y="280" width="580" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sycX_kxtZMSZQoQOyhkW-34" value="光线求交" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-33" vertex="1">
           <mxGeometry x="10" y="30" width="84.5" height="30" as="geometry" />
@@ -81,8 +58,79 @@
         <mxCell id="o2e1-NvCdUIn3P3iNhDh-2" value="场景加速结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sycX_kxtZMSZQoQOyhkW-33">
           <mxGeometry x="490" y="30" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o2e1-NvCdUIn3P3iNhDh-3" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="150" y="210" width="170" height="100" as="geometry" />
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-5" value="曲面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sycX_kxtZMSZQoQOyhkW-33">
+          <mxGeometry x="10" y="70" width="84.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-6" value="坐标系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sycX_kxtZMSZQoQOyhkW-33">
+          <mxGeometry x="105.5" y="70" width="84.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-7" value="采样器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sycX_kxtZMSZQoQOyhkW-33">
+          <mxGeometry x="200" y="70" width="84.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-9" value="材质" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="150" y="190" width="130" height="80" as="geometry">
+            <mxRectangle x="329" y="280" width="60" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-10" value="贴图" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-9" vertex="1">
+          <mxGeometry x="10" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sycX_kxtZMSZQoQOyhkW-14" value="BSDF" style="rounded=0;whiteSpace=wrap;html=1;" parent="sycX_kxtZMSZQoQOyhkW-9" vertex="1">
+          <mxGeometry x="70" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-8" value="物体" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="140" height="80" as="geometry">
+            <mxRectangle x="329" y="280" width="60" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-9" value="模型文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-8">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-10" value="标准形状" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-8">
+          <mxGeometry x="80" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-11" value="光源" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="130" height="80" as="geometry">
+            <mxRectangle x="329" y="280" width="60" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-12" value="发光物" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-11">
+          <mxGeometry x="11" y="40" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-13" value="环境光" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-11">
+          <mxGeometry x="70" y="40" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-14" value="摄像机" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="590" y="190" width="140" height="80" as="geometry">
+            <mxRectangle x="329" y="280" width="60" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-15" value="滤波器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-14">
+          <mxGeometry x="11" y="40" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-16" value="胶片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-14">
+          <mxGeometry x="80" y="40" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-17" value="场景" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-18" value="实体管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-17">
+          <mxGeometry x="15.5" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-25" value="加速结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-17">
+          <mxGeometry x="120" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-20" value="渲染器" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-21" value="积分器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-20">
+          <mxGeometry x="20" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-22" value="渲染任务管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-20">
+          <mxGeometry x="120" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2e1-NvCdUIn3P3iNhDh-23" value="多线程管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o2e1-NvCdUIn3P3iNhDh-20">
+          <mxGeometry x="220" y="30" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
